@@ -85,3 +85,54 @@ body {
     height: 14rem;
     border-radius: 99.99rem;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.content h1 {
+    color: var(--color-text);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    word-wrap: break-word;
+}
+
+.content h2 {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.content p {
+    color: var(--color-text);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-top: 1.6rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.4rem;
+    gap: 2.4rem;
+}
+
+.social a {
+    color: var(--color-text-secondary);
+    font-size: 2.4rem;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: var(--color-primary);
+}
